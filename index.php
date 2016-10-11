@@ -20,7 +20,7 @@ $app->run();
 function getConn()
 {
  try {
-    return new PDO("pgsql:host=localhost dbname=controle user=postgres password=msbru00");
+    return new PDO("pgsql:host=localhost dbname=controle user=postgres password=teste");
  }  catch (PDOException $e) {
    print $e->getMessage();
  }
